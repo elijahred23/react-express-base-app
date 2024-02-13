@@ -14,7 +14,7 @@ app.use((req, res, next) => {
 
 
 app.get('/', (req, res) => {
-    res.send({ message: 'HELLO WORLD, THIS IS YOUR CHAT BOOK API' });
+    res.send({ message: 'HELLO WORLD, THIS IS YOUR API' });
 });
 
 
